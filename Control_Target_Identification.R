@@ -6,7 +6,6 @@ library(ggplot2) # Version 3.4.2
 library(ggsignif) # Version 0.6.4
 library(igraph) # Version 1.2.6
 library(visNetwork) # Version 2.1.2
-library(pracma) # Version 2.4.4
 
 ##### 1. Basic Functions #####
 
