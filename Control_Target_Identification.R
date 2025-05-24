@@ -85,9 +85,7 @@ L_mat = function(Network, Mutation_Indices = c(), Mutation_Values = c()){
   # Input : Fixed nodes indices & values, network
   # Output : state transition matrix with the fixation of given nodes
   N_Num = length(Network$interactions)
-  pb = progress_bar$new(total = 2^N_Num)
   for(i in 1:(2^N_Num)){
-    pb$tick()
     state = Binary_Vector(((2^N_Num) - i), N_Num)
     next_state_dec = (2^N_Num) - Decimal_Vector(stateTransition(Network, state))
     vector = rep(0, 2^N_Num)
@@ -365,7 +363,7 @@ Score = function(Network, Mutation_Indices = c(), Mutation_Values = c(), P_Nodes
   return(sum(abs(nom_mat - mat)) / (2^(length(Network$genes)+1)))
 }
 
-BF_Search = function(Network, Mutation_Indices, Mutation_Values, P_Nodes){
+ARC_Search = function(Network, Mutation_Indices, Mutation_Values, P_Nodes){
   # Input : Altered nodes indices & values, network, output nodes indices
   # Output : distortion degrees of controlled phenotype landscapes for every single node control
   L = L_mat(Network)
@@ -518,7 +516,7 @@ Large_Score = function(Network, Attr_mat, Attr_size, Mutation_Indices = c(), Mut
   return(sum(diff) / (sum(Attr_size) * length(P_Nodes)))
 }
 
-Large_BF_Search = function(Network, Attr_mat, Attr_size, Mutation_Indices, Mutation_Values, P_Nodes = c(), Length = 15){
+Large_ARC_Search = function(Network, Attr_mat, Attr_size, Mutation_Indices, Mutation_Values, P_Nodes = c(), Length = 15){
   # Input : Network, major attractor states & basin size ratio, fixed nodes indices & values, output nodes indices, state transition length
   # Output : distortion degrees of the phenotype landscape for every single node control
   N_Num = length(Network$genes)
