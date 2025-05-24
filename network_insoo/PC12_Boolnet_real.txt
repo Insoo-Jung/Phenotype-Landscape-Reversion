@@ -1,0 +1,35 @@
+targets, factors
+NGF, NGF
+TRKA, NGF
+PI3K, TRKA
+RAS, TRKA | FAK
+FAK, Itga1
+Itga1, Mmp10
+Mmp10, uPA_PLAT
+PkC_PLC, TRKA | Npy
+RAF, RAS | PkC_PLC | JNK
+AKT, PI3K
+uPA_PLAT, AP1
+MEK, RAF
+ERK, MEK
+JNK, RAS
+p53, ERK | JNK
+Npy, AP1
+AP1, ( ERK & JNK ) | ! Zfp36
+Klf10, AKT & JNK
+Klf2, AKT & JNK 
+Mafl, JNK
+Dusp6, JNK
+Fosl1, JNK
+Klf6, JNK
+Clted2, ERK & JNK
+Junb, JNK
+Myc, JNK & ERK
+Btg2, ( JNK & AKT ) | ! Arrest
+Klf4, JNK | ! Arrest
+Zfp36, ( ERK & JNK ) | ! Zfp36
+Klf5, p53 & ERK
+Diff, Klf10 & Klf2 &Mafl & Dusp6 & Fosl1 & Clted2 & Junb & Myc & Klf5 & uPA_PLAT
+Arrest, Btg2 & Klf4
+
+

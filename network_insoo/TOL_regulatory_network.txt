@@ -1,0 +1,16 @@
+targets, factors
+TurA ,  ( Cold ) 
+Meta2 ,  ( ( ( XylSh &  ( ( ( RpoD  | RpoH  | RpoS ) ) )     ) &  ! ( Crc  )  ) &  ! ( ProX  ) )  | ( ( ( Three_MBz &  ( ( ( RpoD  | RpoH  | RpoS ) )  &  ( ( XylS ) ) )     ) &  ! ( Crc  )  ) &  ! ( ProX  ) )  | ( ( ( m_xyl &  ( ( ( RpoD  | RpoH  | RpoS ) )  &  ( ( XylS ) )  &  ( ( Upper ) ) )     ) &  ! ( Crc  )  ) &  ! ( ProX  ) ) 
+Meta ,  ( ( XylSh &  ( ( ( RpoD  | RpoH  | RpoS ) ) )     ) &  ! ( Crc  ) )  | ( (  Three_MBz &  ( ( ( XylS ) )  &  ( ( RpoD  | RpoH  | RpoS ) ) )     ) &  ! ( Crc  ) )  | ( ( m_xyl &  ( ( ( Upper ) )  &  ( ( RpoD  | RpoH  | RpoS ) )  &  ( ( XylS ) ) )     ) &  ! ( Crc  ) ) 
+Upper ,  ( ( ( ( ( m_xyl &  ( ( ( IHF  &  XylR  &  RpoN ) ) )     ) &  ! ( TurA  )  ) &  ! ( PtsN  )  ) &  ! ( Crc  )  ) &  ! ( PprA  ) ) 
+PtsN ,  ( ( Glu  ) &  ! ( CellDens  ) ) 
+PprA ,  ( Cold ) 
+ProX ,  ( ( Glu  ) &  ! ( CellDens  ) ) 
+XylS ,  ( RpoD ) 
+XylR ,  ( ( ( RpoD  ) &  ! ( Crc  )  ) &  ! ( ProX  ) ) 
+XylSh ,  ( ( ( m_xyl &  ( ( ( HU  &  XylR  &  RpoN ) ) )     ) &  ! ( PtsN  )  ) &  ! ( Crc  ) ) 
+IHF ,  ( CellDens ) 
+RpoS ,  ( CellDens ) 
+Crc ,  ( ( CAA  ) &  ! ( CellDens  ) ) 
+RpoH ,  ( Heat ) 
+

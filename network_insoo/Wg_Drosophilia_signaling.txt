@@ -1,0 +1,13 @@
+targets, factors
+Axin ,  ! ( ( Dsh ) )
+Nemo , ( Pan ) 
+TG , ( ( Pygo & ( ( ( Pan  & Lgs  & Hyx  & Nej ) ) )     ) & ! ( Gro  ) ) 
+Fz , ( Wg & ( ( ( Boca ) ) )    ) 
+Dally , ( ( Ttv  ) & ! ( Wf  ) ) 
+Dsh , ( ( Arr  ) & ! ( Nkd  ) )  | ( ( Fz  ) & ! ( Nkd  ) ) 
+Pan , ( ( Arm  ) & ! ( Nemo  ) ) 
+Arm , ( ( Hipk & ( ( ( CK1alpha ) ) )     ) & ! ( Sgg & ( ( ( Slmb  & Proteasome  & Axin  & APC ) ) )     ) ) 
+APC ,  ! ( ( Dsh ) )
+Arr , ( Wg ) 
+Sgg ,  ! ( ( Dsh ) )
+Dlp , ( ( Ttv  ) & ! ( Wf  ) ) 

@@ -1,0 +1,12 @@
+targets, factors
+SuFu ,   ! ( ( Fu ) )
+Dlp ,  ( Ttv ) 
+Ci_act ,   ! ( ( Cos &  ( ( ( Slmb  &  SuFu )  &  (  ( ( CK1a  | Pka  | Sgg ) ) ) ) )    ) )
+Targets ,  ( ( Ci_act  ) &  ! ( Ci_rep  ) ) 
+Fu ,  ( Smo ) 
+Ptc ,   ! ( ( Hh ) )
+Cos ,   ! ( ( Fu &  ( ( ( Smo ) ) )    ) )
+Smo ,  ( ( Gprk2  ) &  ! ( Ptc &  ( ( ( Tow ) ) )     ) ) 
+Hh ,  ( iHog &  ( ( ( Rasp  &  Lipophorin  &  Dally  &  Shf  &  Disp  &  Boi  &  Dlp ) ) )    ) 
+Ci_rep ,  ( CK1a &  ( ( ( Cos  &  Pka  &  Slmb  &  SuFu  &  Sgg ) ) )    ) 
+Dally ,  ( Ttv ) 

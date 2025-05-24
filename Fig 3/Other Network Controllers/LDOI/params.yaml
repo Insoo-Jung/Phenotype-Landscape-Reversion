@@ -1,0 +1,52 @@
+
+debug : true     
+verbose : true 
+
+num_samples : 10^4   # overridden in code ('time_step_multiplier'*number of nodes)
+time_steps : 10^2    # overridden in code ('time_step_multiplier'*number of nodes)
+
+update_rule : 'sync'    
+
+# input
+model_file: 'models/toy.bnet'          
+parity_model_file: 'models/toyExp.bnet'
+
+# output
+output_dir : 'output/debug/'              
+output_img : 'default.png'               
+savefig : 0                    
+use_inputs_in_pheno: 0  
+
+# prev 'settings'
+use_phenos : false          
+outputs : []          
+output_thresholds : [] 
+inputs : [] 
+init : {}
+mutations : {}  
+pheno_color_map : {} 
+
+
+PBN :                    
+  active : 0     
+  flip_pr : 0.01 
+
+features :      
+  - id : 'avg'    
+    active : 1            
+    print : true           
+    when : 'equilibrium'      
+    attractor : true      
+    update_freq : 1
+
+  - id : 'oscil'    
+    active : 1            
+    print : true           
+    when : 'equilibrium'      
+    attractor : true       
+    update_freq : 1 
+            
+
+# implementation details
+clause_bin_size : 8 
+mpl_backend : False 
